@@ -1,0 +1,9 @@
+#!/usr/bin/python
+while True:
+        ebin = raw_input('Oletko homo? ').lower()
+        if ebin == 'juu' or ebin == 'olen':
+                print 'Sitten taidat olla AP!! Ebin!!! xDD'
+                break
+        elif ebin == 'ei' or ebin == 'en':
+                print 'Sitten taidat olla joku muu kuin AP'
+                break
